@@ -10,7 +10,7 @@ This applet exists because I was unhappy with the extremely limited functionalit
 ![Chase Menu Screenshot](./onekoPlus@robinjay/screenshots/screenshot3.png)
 
 ## Compatibility
-- Cinnamon (X11 session) ✓
+- Cinnamon (X11 session) ✅
 - Cinnamon on Wayland ❌
 - Other Desktop Environment ❌ 
 
