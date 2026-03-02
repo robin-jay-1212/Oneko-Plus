@@ -5,9 +5,9 @@ A Cinnamon Panel Applet that unlocks the full potential of the classic "oneko" c
 This applet exists because I was unhappy with the extremely limited functionality present in the offical Cinnamon Spice onekoToggle. Maintenance of the applet is best-effort as this is mainly a personal project. I have published it here simply for those like me who desperately wanted more out of onekoToggle. This applet was created with the help of artificial intelligence.
 
 ## Screenshots
-![Base Menu Screenshot](./onekoPlus@robinjay/screenshots/screenshot1.png)
-![Palette Menu Screenshot](./onekoPlus@robinjay/screenshots/screenshot2.png)
-![Chase Menu Screenshot](./onekoPlus@robinjay/screenshots/screenshot3.png)
+![Base Menu Screenshot](/onekoPlus@robinjay/screenshots/screenshot1.png)
+![Palette Menu Screenshot](/onekoPlus@robinjay/screenshots/screenshot2.png)
+![Chase Menu Screenshot](/onekoPlus@robinjay/screenshots/screenshot3.png)
 
 ## Compatibility
 - Cinnamon (X11 session) ✓
