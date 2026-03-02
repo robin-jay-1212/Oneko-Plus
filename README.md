@@ -4,6 +4,7 @@ A Cinnamon Panel Applet that unlocks the full potential of the classic "oneko" c
 ## Disclaimer
 This applet exists because I was unhappy with the extremely limited functionality present in the offical Cinnamon Spice onekoToggle. Maintenance of the applet is best-effort as this is mainly a personal project. I have published it here simply for those like me who desperately wanted more out of onekoToggle. This applet was created with the help of artificial intelligence.
 
+## Screenshots
 ![Base Menu Screenshot](./onekoPlus@robinjay/screenshots/screenshot1.png)
 ![Palette Menu Screenshot](./onekoPlus@robinjay/screenshots/screenshot2.png)
 ![Chase Menu Screenshot](./onekoPlus@robinjay/screenshots/screenshot3.png)
@@ -55,12 +56,28 @@ sudo pacman -S oneko zenity xorg-xsetroot
 - Relies on xsetroot
 
 ## Installation Instructions
-1. Download the parent directory (onekoPlus@robinjay) !!DO NOT RENAME!!
-2. Move entire folder into ~/.local/share/cinnamon/applets
-3. Open the Cinnamon Applet Manager ("Applets")
-4. Enable Oneko Plus in the "Manage" tab (NOT "Download")
+1. Download the latest onekoplus.tar.gz release on the "Releases" page (check sidebar)
+2. Open terminal
+3. Navigate to your download location:
+   ```bash
+   cd ~/Downloads
+   ```
+4. Move the file to your applets folder and then navigate to said folder:
+   ```bash
+   sudo mv onekoplusv1.0.tar.gz ~/.local/share/cinnamon/applets && cd ~/.local/share/cinnamon/applets
+   ```
+5. Extract the archive:
+   ```bash
+   tar -zxvf onekoplusv1.0.tar.gz
+   ```
+6. Open the Cinnamon Applet Manager ("Applets")
+7. Enable Oneko Plus in the "Manage" tab (NOT "Download")
 
-If onekoPlus does not appear in the Applet Manager try restarting Cinnamon with ALT + F2, r, ENTER
+- If onekoPlus does not appear in the Applet Manager try restarting Cinnamon with ALT + F2, r, ENTER
+- You can delete the .tar.gz archive after extracting:
+  ```bash
+  sudo rm onekoplusv1.0.tar.gz
+  ```
 
 ## Limitations
 1. This applet is simply a graphical frontend for the classic oneko command for the Cinnamon Desktop Environment. Any features not present in the original oneko script cannot be implemented into this applet (e.g. changing sprite size). 
