@@ -1,0 +1,69 @@
+{
+    "section1": {
+        "type": "section",
+        "description": "Display Options"
+    },
+    "savedPalettes": {
+        "type": "generic",
+        "default": []
+    },
+    "currentSpeed": {
+        "type": "generic",
+        "default": 18,
+        "min": 5,
+        "max": 32,
+        "step": 1
+    },
+    "currentFg": {
+        "type": "generic",
+        "default": "black"
+    },
+    "currentBg": {
+        "type": "generic",
+        "default": "white"
+    },
+    "lastSprite": {
+        "type": "generic",
+        "default": ""
+    },
+    "onekoActive": {
+        "type": "generic",
+        "default": false,
+        "description": "Whether oneko is currently running"
+    },
+    "chaseMode": {
+        "type": "generic",
+        "default": "none",
+        "description": "Window chase mode: cursor (default), towindow, or tofocus"
+    },
+    "savedOutfits": {
+        "type": "generic",
+        "default": [],
+        "description": "Saved sprite and palette combinations"
+    },
+    "showPaletteInTitle": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Show the names of current palette colors as the Palette Swapper menu title (EXPERIMENTAL)"
+    },
+    "showOutfitInTitle": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Show the name of current outfit as the Saved Outfits menu title (EXPERIMENTAL)"
+    },
+    "lastOutfitName": {
+        "type": "generic",
+        "default": "",
+        "description": "Last applied outfit name"
+    },
+    "showSakura": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show Sakura sprite in menu"
+    },
+    "showTomoyo": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Show Tomoyo sprite in menu"
+    }
+}

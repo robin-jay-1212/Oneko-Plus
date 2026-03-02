@@ -1,0 +1,10 @@
+{
+    "uuid": "onekoPlus@robinjay",
+    "name": "Oneko Plus",
+    "description": "A desktop companion applet that unlocks the full potential of oneko",
+    "author": "robinjay",
+    "max-instances": "-1",
+    "has-config": true,
+    "version": "1.0",
+    "cinnamon-version": ["4.x", "5.x", "6.x"]
+}
